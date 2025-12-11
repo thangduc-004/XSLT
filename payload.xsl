@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+    xmlns:php="http://php.net/xsl"
   <xsl:template match="/">
-    <html><body>
-      <h1>Hacked XSLT</h1>
-    </body></html>
+    <xsl:value-of select="php:function('phpversion')" />
   </xsl:template>
 
 </xsl:stylesheet>
