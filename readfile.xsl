@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:php="http://php.net/xsl">
 
-    <!-- cho dễ đọc, in plain text -->
+    <!--in plain text -->
     <xsl:output method="text" omit-xml-declaration="yes"/>
 
     <xsl:template match="/">
